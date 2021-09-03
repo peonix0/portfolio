@@ -4,7 +4,7 @@ function center_menu_visibility() {
     document.querySelector("#menuBtn>img").src = "img/error.png";
     ele.style.display = "grid";
 
-    if(screen.availWidth >= 380 && screen.availHeight>=700 ){
+    if(screen.availWidth >= 500 && screen.availHeight>=600 ){
         document.querySelector(".centerText").style.bottom = "70%";
      }
    else{
@@ -14,7 +14,7 @@ function center_menu_visibility() {
   } else {
     document.querySelector("#menuBtn>img").src = "img/menu.png";
     ele.style.display = "none";
-    if(screen.availWidth >= 380 && screen.availHeight>=700){
+    if(screen.availWidth >= 500 && screen.availHeight>=600){
         document.querySelector(".centerText").style.bottom = "40%";
      }
    else{
