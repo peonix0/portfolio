@@ -1,7 +1,7 @@
 body{
   background-color: white;
   opacity: 1;
-  background-image: url("../img/back1.jpg");
+  /* background-image: url("../img/back1.jpg"); */
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
 }
@@ -44,6 +44,10 @@ body{
     font-size: 28px;
 }
 
+.icon_name{
+  font-family: 'Lobster Two', cursive;
+}
+
 #Typel2{
     font-size: 16px;
     margin-left:5vw;
@@ -53,17 +57,18 @@ body{
 .center_menu{
   width: 80vmin;
   display: none;
-   grid-template-rows: repeat(auto,1fr);
+  grid-template-rows: repeat(auto,1fr);
   grid-column-gap: 0px;
   grid-template-columns: repeat(3,1fr);
-  border-radius: 4px;
+  border-radius: 10px;
+  
   /* border: 2px solid gray;
   border-radius: 8px; */
   /* box-shadow:2px 2px lightgray; */
 
   padding: 8px;
-  opacity: 0.7;
-  background-color: white;
+  opacity: 0.8;
+  background-color: rgb(214, 235, 225);
 
 
   position: fixed;
@@ -89,10 +94,6 @@ iframe{
   width: 60px;
   height: 60px;
 }
-svg{
-  display:none !important;
-}
-
 
 
 .bottom_bar{
@@ -111,7 +112,7 @@ svg{
   margin-right: 5vmin;
   padding: 8px;
 }
-
+/* 
 .icon_name{
    font-family: 'Palette Mosaic', cursive;
- }
+ } */
