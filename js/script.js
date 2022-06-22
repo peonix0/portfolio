@@ -24,10 +24,12 @@ function center_menu_visibility() {
   }
 }
 
-var ele2 = document.getElementById("menuBtn");
 
+
+var ele2 = document.getElementById("menuBtn");
 var eleClicked = false;
 ele2.addEventListener("click", center_menu_visibility);
+
 
 
 // typewriter effect
