@@ -42,5 +42,5 @@ function typeWriter(text,i,ele,speed) {
   }
 }
 
-typeWriter("Helloo, Welcome to Aj's Portfolio.",0,"Typel1",120);
-typeWriter("“There are 360 degrees, so why stick to one?” – Zaha Hadid",0,"Typel2",50);
+typeWriter("Hi, Welcome to Aj's Portfolio.",0,"Typel1",120);
+typeWriter("“There are 360 degrees, so why stick to one?” –Zaha Hadid",0,"Typel2",50);
